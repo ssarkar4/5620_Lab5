@@ -1,389 +1,389 @@
 .header {
-  background-color: #6b6b6b;
-  overflow: hidden;
-  width: 100%;
-  height: 160px;
-  position: relative;
-}
-.frame1, .frame2, .frame3, .is-low-code, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10, .frame11, .frame12 {
-  width: 100%;
-}
-
-.text-wrapper-1, .text-wrapper-2,.text-wrapper-4, .text-wrapper-6, .text-wrapper-8, .text-wrapper-10, .text-wrapper-11,
- .text-wrapper-12, .text-wrapper-14, .text-wrapper-15, .text-wrapper-17, .text-wrapper-18, .text-wrapper-20, .text-wrapper-21,
-  .text-wrapper-22, .text-wrapper-23, .text-wrapper-24, .text-wrapper-25, .text-wrapper-26{
-  font-family: "Inter-Light", Helvetica;
-  font-weight: 300;
-  color: #000000;
-  font-size: 30px;
-}
-
-.text-wrapper-3, .text-wrapper-5, .text-wrapper-7, .common, .text-wrapper-13, .text-wrapper-16, .text-wrapper-19{
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 40px;
-}
-
-  .button {
-  background-color: #000000;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 32px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 30px;
-}
-
-.first-line {
-  position: absolute;
-  width: 100%;
-  top: 10px;
-  text-align: center;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 40px;
-}
-
-.second-line {
-  position: absolute;
-  width: 100%;
-  top: 77px;
-  text-align: center;
-  font-family: "Inter-Light", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 30px;
-  text-align: center;
-}
-
-.frame1 .text-wrapper-1 {
-  position: absolute;
-  width: 900px;
-  top: 190px;
-  left: 1100px;
-}
-.frame1 .text-wrapper-2 {
-  position: absolute;
-  width: 700px;
-  top: 320px;
-  left: 1600px;
-}
-
-.frame1 .image-1{
-  position: absolute;
-          top: 17%; /* Position from top */
-          left: 2%; /* Position from left */
-          width: 1000px; /* Set width of the image */
-          height: 500px; /* Maintain aspect ratio */
-}
-
-.frame1 .image-2{
-  position: absolute;
-          top: 34%; /* Position from top */
-          left: 45%; /* Position from left */
-          width: 1200px; /* Set width of the image */
-          height: 400px; /* Maintain aspect ratio */
-}
-
-.frame2 .text-wrapper-3 {
-  position: absolute;
-  width: 800px;
-  top: 1000px;
-  left: 1400px;
-}
-
-.frame2 .text-wrapper-4 {
-  position: absolute;
-  width: 800px;
-  top: 1050px;
-  left: 1400px;
-}
-
-.frame3 .image-3
-{
-  position: absolute;
-  top: 69%; /* Position from top */
-  left: 2%; /* Position from left */
-  width: 1000px; /* Set width of the image */
-  height: 600px; /* Maintain aspect ratio */
-}
-
-  .is-low-code .text-wrapper-5
-  {
-  position: absolute;
-  width: 1200px;
-  top: 1500px;
-  left: 45px;
+    background-color: #6b6b6b;
+    overflow: hidden;
+    width: 100%;
+    height: 160px;
+    position: relative;
+  }
+  .frame1, .frame2, .frame3, .is-low-code, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10, .frame11, .frame12 {
+    width: 100%;
   }
 
-  .is-low-code .text-wrapper-6
-  {
-  position: absolute;
-  width: 2300px;
-  top: 1600px;
-  left: 45px;
+  .text-wrapper-1, .text-wrapper-2,.text-wrapper-4, .text-wrapper-6, .text-wrapper-8, .text-wrapper-10, .text-wrapper-11,
+   .text-wrapper-12, .text-wrapper-14, .text-wrapper-15, .text-wrapper-17, .text-wrapper-18, .text-wrapper-20, .text-wrapper-21,
+    .text-wrapper-22, .text-wrapper-23, .text-wrapper-24, .text-wrapper-25, .text-wrapper-26{
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 30px;
   }
 
-  .frame4 .text-wrapper-7
-  {
-      position: absolute;
-      width: 800px;
-      top: 1900px;
-      left: 1400px;
+  .text-wrapper-3, .text-wrapper-5, .text-wrapper-7, .common, .text-wrapper-13, .text-wrapper-16, .text-wrapper-19{
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
   }
 
-  .frame4 .text-wrapper-8
-  {
-      position: absolute;
-      width: 800px;
-      top: 2000px;
-      left: 1400px;
+    .button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .first-line {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    text-align: center;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+  .second-line {
+    position: absolute;
+    width: 100%;
+    top: 77px;
+    text-align: center;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
   }
 
-  .frame4 .text-wrapper-9{
-      position: absolute;
-      width: 700px;
-      top: 2200px;
-      left: 1400px;
-      font-family: "Inter-BoldItalic", Helvetica;
-      font-weight: 700;
-      font-style: italic;
-      color: #000000;
-      font-size: 30px;
-      text-align: center;
-  }    
+  .frame1 .text-wrapper-1 {
+    position: absolute;
+    width: 900px;
+    top: 190px;
+    left: 1100px;
+  }
+  .frame1 .text-wrapper-2 {
+    position: absolute;
+    width: 700px;
+    top: 320px;
+    left: 1600px;
+  }
 
-  .frame5 .image-4
+  .frame1 .image-1{
+    position: absolute;
+            top: 17%; /* Position from top */
+            left: 2%; /* Position from left */
+            width: 1000px; /* Set width of the image */
+            height: 500px; /* Maintain aspect ratio */
+  }
+
+  .frame1 .image-2{
+    position: absolute;
+            top: 34%; /* Position from top */
+            left: 45%; /* Position from left */
+            width: 1200px; /* Set width of the image */
+            height: 400px; /* Maintain aspect ratio */
+  }
+
+  .frame2 .text-wrapper-3 {
+    position: absolute;
+    width: 800px;
+    top: 1000px;
+    left: 1400px;
+  }
+
+  .frame2 .text-wrapper-4 {
+    position: absolute;
+    width: 800px;
+    top: 1050px;
+    left: 1400px;
+  }
+
+  .frame3 .image-3
   {
     position: absolute;
-    top: 150%; /* Position from top */
+    top: 69%; /* Position from top */
     left: 2%; /* Position from left */
     width: 1000px; /* Set width of the image */
     height: 600px; /* Maintain aspect ratio */
 }
-  
-.frame6 .text-wrapper-10
-  {
+
+    .is-low-code .text-wrapper-5
+    {
+    position: absolute;
+    width: 1200px;
+    top: 1500px;
+    left: 45px;
+    }
+
+    .is-low-code .text-wrapper-6
+    {
+    position: absolute;
+    width: 2300px;
+    top: 1600px;
+    left: 45px;
+    }
+
+    .frame4 .text-wrapper-7
+    {
+        position: absolute;
+        width: 800px;
+        top: 1900px;
+        left: 1400px;
+    }
+
+    .frame4 .text-wrapper-8
+    {
+        position: absolute;
+        width: 800px;
+        top: 2000px;
+        left: 1400px;
+    }
+
+    .frame4 .text-wrapper-9{
+        position: absolute;
+        width: 700px;
+        top: 2200px;
+        left: 1400px;
+        font-family: "Inter-BoldItalic", Helvetica;
+        font-weight: 700;
+        font-style: italic;
+        color: #000000;
+        font-size: 30px;
+        text-align: center;
+    }    
+
+    .frame5 .image-4
+    {
       position: absolute;
-      width: 800px;
-      top: 2440px;
-      left: 850px; 
-      text-align: center; 
+      top: 150%; /* Position from top */
+      left: 2%; /* Position from left */
+      width: 1000px; /* Set width of the image */
+      height: 600px; /* Maintain aspect ratio */
+  }
+    
+  .frame6 .text-wrapper-10
+    {
+        position: absolute;
+        width: 800px;
+        top: 2440px;
+        left: 850px; 
+        text-align: center; 
+    }
+
+    .frame6 .text-wrapper-11
+    {
+        position: absolute;
+        width: 800px;
+        top: 2520px;
+        left: 850px;
+        text-align: center;    
+    }
+
+    .frame7 .deliver-business
+    {
+        position: absolute;
+        width: 800px;
+        top: 2700px;
+        left: 1400px;
+    }
+
+  .frame7 .powerful-alone
+  {
+    position: absolute;
+      width: 700px;
+      top: 3400px;
+      left: 200px;
   }
 
-  .frame6 .text-wrapper-11
+  .frame7 .AI-everywhere
   {
       position: absolute;
-      width: 800px;
-      top: 2520px;
-      left: 850px;
-      text-align: center;    
-  }
-
-  .frame7 .deliver-business
-  {
-      position: absolute;
-      width: 800px;
-      top: 2700px;
+      width: 700px;
+      top: 4000px;
       left: 1400px;
   }
 
-.frame7 .powerful-alone
-{
-  position: absolute;
-    width: 700px;
-    top: 3400px;
-    left: 200px;
-}
-
-.frame7 .AI-everywhere
-{
+  .frame8 .image-5
+  {
     position: absolute;
-    width: 700px;
-    top: 4000px;
-    left: 1400px;
+    top: 220%; /* Position from top */
+    left: 2%; /* Position from left */
+    width: 1000px; /* Set width of the image */
+    height: 550px; /* Maintain aspect ratio */
 }
 
-.frame8 .image-5
+.frame8 .image-6
 {
   position: absolute;
-  top: 220%; /* Position from top */
+  top: 270%; /* Position from top */
+  left: 50%; /* Position from left */
+  width: 1000px; /* Set width of the image */
+  height: 550px; /* Maintain aspect ratio */
+}
+
+.frame8 .image-7
+{
+  position: absolute;
+  top: 320%; /* Position from top */
   left: 2%; /* Position from left */
   width: 1000px; /* Set width of the image */
   height: 550px; /* Maintain aspect ratio */
 }
 
-.frame8 .image-6
-{
-position: absolute;
-top: 270%; /* Position from top */
-left: 50%; /* Position from left */
-width: 1000px; /* Set width of the image */
-height: 550px; /* Maintain aspect ratio */
-}
-
-.frame8 .image-7
-{
-position: absolute;
-top: 320%; /* Position from top */
-left: 2%; /* Position from left */
-width: 1000px; /* Set width of the image */
-height: 550px; /* Maintain aspect ratio */
-}
-
 .frame9 .text-wrapper-13
-  {
-      position: absolute;
-      width: 800px;
-      top: 4480px;
-      left: 50px;
-  }
+    {
+        position: absolute;
+        width: 800px;
+        top: 4480px;
+        left: 50px;
+    }
 
 .frame9 .content
 {
-  position: absolute;
-  width: 2300px;
-  top: 4600px;
-  left: 50px;
-  display: flex;
-  justify-content: space-between;
+    position: absolute;
+    width: 2300px;
+    top: 4600px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .frame9 .logo
 {
-  width: 200px; /* Set the initial width */
-height: 150px; /* Set the initial height */
-border-radius: 50%; /* Make it circular */
-margin: 0 10px; /* Add spacing between logos */
-object-fit: cover; /* Maintain aspect ratio */
-transition: all 0.3s ease; /* Smooth transition for scaling */
+    width: 200px; /* Set the initial width */
+  height: 150px; /* Set the initial height */
+  border-radius: 50%; /* Make it circular */
+  margin: 0 10px; /* Add spacing between logos */
+  object-fit: cover; /* Maintain aspect ratio */
+  transition: all 0.3s ease; /* Smooth transition for scaling */
 }
 .frame9 .logo:hover {
-  transform: scale(1.8); /* Scale down on hover */
-}
+    transform: scale(1.8); /* Scale down on hover */
+  }
 
 .frame10 .text-wrapper-14
-  {
-      position: absolute;
-      width: 1000px;
-      top: 4790px;
-      left: 850px;
-  }
+    {
+        position: absolute;
+        width: 1000px;
+        top: 4790px;
+        left: 850px;
+    }
 .frame10 .text-wrapper-15
-  {
-      position: absolute;
-      width: 800px;
-      top: 4870px;
-      left: 900px;
-  }    
-
-  .frame11 .text-wrapper-16
-  {
-      position: absolute;
-      width: 800px;
-      top: 5000px;
-      left: 50px;
-  }
-
-  .frame11 .text-wrapper-17
-  {
-      position: absolute;
-      width: 800px;
-      top: 5100px;
-      left: 60px;
-  }
-
-  .frame11 .text-wrapper-18
-  {
-      position: absolute;
-      width: 800px;
-      top: 5270px;
-      left: 100px;
-  }
-
-  .frame12 .text-wrapper-19
-  {
-      position: absolute;
-      width: 800px;
-      top: 5000px;
-      left: 1500px;
-  }
-
-  .frame12 .text-wrapper-20
-  {
-      position: absolute;
-      width: 800px;
-      top: 5100px;
-      left: 1500px;
-  }
-
-    .frame12 .text-wrapper-21
     {
         position: absolute;
         width: 800px;
-        left: 1400px;
-        top: 5250px;
-    }
+        top: 4870px;
+        left: 900px;
+    }    
 
-    .frame12 .text-wrapper-22
+    .frame11 .text-wrapper-16
     {
         position: absolute;
         width: 800px;
-        left: 1450px;
-        top: 5330px;
+        top: 5000px;
+        left: 50px;
     }
 
-    .frame12 .text-wrapper-23
+    .frame11 .text-wrapper-17
     {
         position: absolute;
         width: 800px;
-        left: 1450px;
-        top: 5410px;
+        top: 5100px;
+        left: 60px;
     }
 
-    .footer {
-      background-color: #6b6b6b;
-      overflow: hidden;
-      top: 5300px;
-      bottom: 0;
-      width: 100%;
-      height: 100px;
-      position: relative;
-    }
-
-    .footer .text-wrapper-24
+    .frame11 .text-wrapper-18
     {
         position: absolute;
+        width: 800px;
+        top: 5270px;
         left: 100px;
     }
-   
-    .footer .text-wrapper-25
+
+    .frame12 .text-wrapper-19
     {
         position: absolute;
-        left: 1100px;
+        width: 800px;
+        top: 5000px;
+        left: 1500px;
     }
 
-    .footer .text-wrapper-26
+    .frame12 .text-wrapper-20
     {
         position: absolute;
-        left: 2200px;
+        width: 800px;
+        top: 5100px;
+        left: 1500px;
     }
 
-    .footer .buttons {
-      background-color: #000000;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 24px;
-      margin: 4px 2px;
-      cursor: pointer;
-  }
+      .frame12 .text-wrapper-21
+      {
+          position: absolute;
+          width: 800px;
+          left: 1400px;
+          top: 5250px;
+      }
+
+      .frame12 .text-wrapper-22
+      {
+          position: absolute;
+          width: 800px;
+          left: 1450px;
+          top: 5330px;
+      }
+
+      .frame12 .text-wrapper-23
+      {
+          position: absolute;
+          width: 800px;
+          left: 1450px;
+          top: 5410px;
+      }
+
+      .footer {
+        background-color: #6b6b6b;
+        overflow: hidden;
+        top: 5300px;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        position: relative;
+      }
+
+      .footer .text-wrapper-24
+      {
+          position: absolute;
+          left: 100px;
+      }
+     
+      .footer .text-wrapper-25
+      {
+          position: absolute;
+          left: 1100px;
+      }
+
+      .footer .text-wrapper-26
+      {
+          position: absolute;
+          left: 2200px;
+      }
+
+      .footer .buttons {
+        background-color: #000000;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
